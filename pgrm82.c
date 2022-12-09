@@ -51,7 +51,7 @@ int main(){
     }
 
     // liberaciond e memoria
-    for (int k = 0; k < 5; k++) { free(*(nombre+k))};
+    for (int k = 0; k < 5; k++) { free(*(nombre+k));};
     free(edad);
     free(sexo);
     return 0;
